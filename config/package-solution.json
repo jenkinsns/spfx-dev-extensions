@@ -1,0 +1,21 @@
+{
+  "solution": {
+    "name": "spfx-dev-extensions-client-side-solution",
+    "id": "693d13fb-998f-46e4-a6f4-1b5e2bdc592f",
+    "version": "1.0.0.0",
+    "features": [{
+      "title": "Application Extension",
+      "description": "Deploys a custom action with ClientSideComponentId association",
+      "id": "456da147-ced2-3036-b564-8dad5c1c2e34",
+      "version": "1.0.0.0",
+      "assets": {        
+        "elementManifests": [
+          "elements.xml"
+        ]
+      }
+    }]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-dev-extensions.sppkg"
+  }
+}

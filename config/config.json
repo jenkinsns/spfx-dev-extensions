@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/extensions/appcustomizer/AppcustomizerApplicationCustomizer.js",
+      "manifest": "./src/extensions/appcustomizer/AppcustomizerApplicationCustomizer.manifest.json",
+      "outputPath": "./dist/appcustomizer.bundle.js"
+    },
+    {
+      "entry": "./lib/extensions/colorbystatus/ColorbystatusFieldCustomizer.js",
+      "manifest": "./src/extensions/colorbystatus/ColorbystatusFieldCustomizer.manifest.json",
+      "outputPath": "./dist/colorbystatus.bundle.js"
+    },
+    {
+      "entry": "./lib/extensions/listviewcommandset/ListviewcommandsetCommandSet.js",
+      "manifest": "./src/extensions/listviewcommandset/ListviewcommandsetCommandSet.manifest.json",
+      "outputPath": "./dist/listviewcommandset.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "appcustomizerStrings": "extensions/appcustomizer/loc/{locale}.js",
+    "colorbystatusStrings": "extensions/colorbystatus/loc/{locale}.js",
+    "listviewcommandsetStrings": "extensions/listviewcommandset/loc/{locale}.js"
+  }
+}

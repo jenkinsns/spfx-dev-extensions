@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+    <CustomAction 
+        Title="SPFxApplicationCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="e1ad59ff-fdcd-4f89-930f-8ee6f1f59ffc"
+        ClientSideComponentProperties="{&quot;Header&quot;:&quot;Header area of the page&quot;}">
+    </CustomAction>
+
+    <CustomAction 
+        Title="SPFxListViewCommandSet"
+        RegistrationId="100"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="eacb5f25-72c7-4563-9ad7-6a0fc2b715a6">
+
+    </CustomAction>
+
+</Elements>

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "eacb5f25-72c7-4563-9ad7-6a0fc2b715a6",
+  "alias": "ListviewcommandsetCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+  "safeWithCustomScriptDisabled": true,
+
+  "commands": {
+    "ListMenu1": {
+      "title": "List Menu One"
+    },
+    "ListMenu2": {
+      "title": "List Menu Two"
+    },
+    "ListMenu3": {
+      "title": "List Menu Three"
+    }
+  }
+}
